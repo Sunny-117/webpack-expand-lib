@@ -3,6 +3,7 @@ const {
 } = require("clean-webpack-plugin")
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { SkeletonPlugin } = require('./plugins-pkg/skeleton');
+const { resolve } = require("path");
 module.exports = {
     mode: "development",
     devtool: "source-map",
