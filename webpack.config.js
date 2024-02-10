@@ -2,7 +2,7 @@ const {
     CleanWebpackPlugin
 } = require("clean-webpack-plugin")
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const { SkeletonPlugin } = require('./plugins-pkg/skeleton');
+const { SkeletonPlugin } = require('./packages/skeleton');
 const { resolve } = require("path");
 module.exports = {
     mode: "development",
